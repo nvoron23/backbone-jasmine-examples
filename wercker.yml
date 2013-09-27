@@ -3,11 +3,6 @@ box: wercker/python
 build:
   # The steps that will be executed on build
   steps:
-    - script:
-        name: Setup xvfb
-        code: |
-          Xvfb :0 -screen 0 1024x768x24 > /dev/null 2>&1 &
-          xdpyinfo -display :0 &>/dev/null && export DISPLAY=:0
 
     # Install required packages
     - install-packages:
