@@ -1,5 +1,7 @@
 # Backbone Jasmine examples
 
+[![wercker status](https://app.wercker.com/status/88432e74eed748b7d86939591218d2db/m "wercker status")](https://app.wercker.com/project/bykey/88432e74eed748b7d86939591218d2db)
+
 This rails app is a container for examples of how to use the Jasmine BDD testing library to test Backbone.js applications.
 
 The examples here are used in a series of articles published on my blog [tinnedfruit.com](http://tinnedfruit.com/2011/03/03/testing-backbone-apps-with-jasmine-sinon.html)
@@ -11,5 +13,5 @@ This is a barebones Rails 3 application, so uses Bundler for gem dependencies. T
     > gem install bundler
     > bundle install
     > rake jasmine
-  
+
 You can then navigate to http://localhost:8888 in any browser to run the Jasmine spec suite.
