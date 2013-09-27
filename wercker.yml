@@ -18,4 +18,4 @@ build:
     - script:
         name: Test
         code: |
-          sudo jasmine-headless-webkit -c
+          sudo xvfb-run jasmine-headless-webkit -c
